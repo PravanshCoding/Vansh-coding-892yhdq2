@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timings and Dates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #2aaf60;
+            font-style: italic;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            margin-top: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 250px;
+            text-align: left;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .box {
+            border: 2px solid black;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .quotes {
+            color: #2aaf60;
+            font-size: 24px;
+            position: absolute;
+        }
+        .top-quote {
+            top: 5px;
+            left: 10px;
+        }
+        .bottom-quote {
+            bottom: 5px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Our timings and dates</h1>
+    <div class="container">
+        <table>
+            <tr>
+                <th>Date/Day</th>
+            </tr>
+            <tr><td>February 19 / Wednesday</td></tr>
+            <tr><td>February 24 / Monday</td></tr>
+            <tr><td>March 1 / Saturday</td></tr>
+            <tr><td>March 4 / Tuesday</td></tr>
+            <tr><td>March 7 / Friday</td></tr>
+            <tr><td>March 12 / Wednesday</td></tr>
+        </table>
+        <div class="box">
+            <span class="quotes top-quote">&ldquo;</span>
+            Coming Soon..
+            <span class="quotes bottom-quote">&rdquo;</span>
+        </div>
+    </div>
+</body>
+</html>
